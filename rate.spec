@@ -4,7 +4,7 @@ Summary(pl):	Narzêdzie linii poleceñ do analizy ruchu w sieci
 Name:		rate
 Version:	0.9
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Networking
 Source0:	http://s-tech.elsat.net.pl/bmtools/%{name}-%{version}%{pre}.tar.gz
 # Source0-md5:	6238c7cd1099e48e141b1b2cc6f00e23
