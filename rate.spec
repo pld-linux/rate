@@ -8,6 +8,7 @@ License:	GPL
 Group:		Applications/Networking
 Source0:	http://s-tech.elsat.net.pl/bmtools/%{name}-%{version}%{pre}.tar.gz
 # Source0-md5:	6238c7cd1099e48e141b1b2cc6f00e23
+BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
