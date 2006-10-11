@@ -1,14 +1,14 @@
-%define	pre	pre
 Summary:	Commandline traffic analysis tool
 Summary(pl):	Narzêdzie linii poleceñ do analizy ruchu w sieci
 Name:		rate
 Version:	0.9
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Networking
-Source0:	http://s-tech.elsat.net.pl/bmtools/%{name}-%{version}%{pre}.tar.gz
-# Source0-md5:	6238c7cd1099e48e141b1b2cc6f00e23
-BuildRequires:	libpcap-devel
+Source0:	http://s-tech.elsat.net.pl/bmtools/%{name}-%{version}.tar.gz
+# Source0-md5:	5689ff8b6e0bb8f78dec9184623c5800
+BuildRequires:	libpcap-devel >= 0.8
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,6 +37,8 @@ ruch oraz wydobywanie ³añcuchów tekstowych z pakietów.
 
 %prep
 %setup -q
+
+sed -i -e 's,net/bpf.h,pcap-bpf.h,' lib.c
 
 %build
 %{__make} \
