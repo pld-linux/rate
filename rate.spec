@@ -1,5 +1,5 @@
 Summary:	Commandline traffic analysis tool
-Summary(pl.UTF-8):   Narzędzie linii poleceń do analizy ruchu w sieci
+Summary(pl.UTF-8):	Narzędzie linii poleceń do analizy ruchu w sieci
 Name:		rate
 Version:	0.9
 Release:	2
