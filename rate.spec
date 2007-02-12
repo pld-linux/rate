@@ -1,5 +1,5 @@
 Summary:	Commandline traffic analysis tool
-Summary(pl):	Narzêdzie linii poleceñ do analizy ruchu w sieci
+Summary(pl.UTF-8):   NarzÄ™dzie linii poleceÅ„ do analizy ruchu w sieci
 Name:		rate
 Version:	0.9
 Release:	2
@@ -22,18 +22,18 @@ following tasks: estimating overall traffic rates, determining nodes
 generating the highest traffic, determining connections and flows
 generating the highest traffic and extracting strings from packets.
 
-%description -l pl
-rate jest bogatym w mo¿liwo¶ci narzêdziem linii poleceñ do analizy
-ruchu w sieci, stworzonym aby pomóc administratorom sieci w ocenie
-tego, co siê w danej chwili dzieje na routerach. W odró¿nieniu od
+%description -l pl.UTF-8
+rate jest bogatym w moÅ¼liwoÅ›ci narzÄ™dziem linii poleceÅ„ do analizy
+ruchu w sieci, stworzonym aby pomÃ³c administratorom sieci w ocenie
+tego, co siÄ™ w danej chwili dzieje na routerach. W odrÃ³Å¼nieniu od
 tcpdump(1), rate korzysta z metod statystycznych i potokowych, nigdy
-nie generuj±c strumienia danych wyj¶ciowych z szybko¶ci±
-przekraczaj±c± mo¿liwo¶ci ludzkiej percepcji. Natomiast otrzymywane
-wyniki s± mniej precyzyjne. rate posiada cztery ró¿ne tryby pracy
-zaprojektowane aby realizowaæ nastêpuj±ce zadania: szacowanie ogólnych
-parametrów pracy sieci, identyfikacja wêz³ów generuj±cych najwiêkszy
-ruch, identyfikacja po³±czeñ i przep³ywów generuj±cych najwiêkszy
-ruch oraz wydobywanie ³añcuchów tekstowych z pakietów.
+nie generujÄ…c strumienia danych wyjÅ›ciowych z szybkoÅ›ciÄ…
+przekraczajÄ…cÄ… moÅ¼liwoÅ›ci ludzkiej percepcji. Natomiast otrzymywane
+wyniki sÄ… mniej precyzyjne. rate posiada cztery rÃ³Å¼ne tryby pracy
+zaprojektowane aby realizowaÄ‡ nastÄ™pujÄ…ce zadania: szacowanie ogÃ³lnych
+parametrÃ³w pracy sieci, identyfikacja wÄ™zÅ‚Ã³w generujÄ…cych najwiÄ™kszy
+ruch, identyfikacja poÅ‚Ä…czeÅ„ i przepÅ‚ywÃ³w generujÄ…cych najwiÄ™kszy
+ruch oraz wydobywanie Å‚aÅ„cuchÃ³w tekstowych z pakietÃ³w.
 
 %prep
 %setup -q
